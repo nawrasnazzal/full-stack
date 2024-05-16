@@ -1,0 +1,45 @@
+@import './base.css';
+ .header{
+    position: static;
+    top: 0;
+    box-shadow: 0px 1.6474391222000122px 8.23719596862793px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+ }
+ .header.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+ }
+ .header.logo image{
+    width: 35px;
+ }
+ .header.logo a{
+    color: var(--maincolor);
+ }
+ .header .nav a{
+    color: #101928;
+ }
+ .nav ul{
+    display: flex;
+    gap: 16px;
+ }
+ .header .auth a{
+    font-family: var(--subfont);
+    padding: 10px 30px;
+    border-radius: 10px;
+ }
+ .header .auth a:first-of-type{
+    border: 1px solid var(--maincolor);
+    color: var(--maincolor);
+ }
+ .header .auth a:last-of-type{
+    background-color: var(--maincolor);
+    color: #fff;
+
+ }
+ 
+.nav ul{
+    display: flex ;
+    gap: 16px;
+}
